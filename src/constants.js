@@ -8,3 +8,5 @@ export const YOUTUBE_SEARCH_API =
 export const SINGLE_YOUTUBE_VIDEO = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&key=${API_KEY}&id=`;
 
 export const hello = `https://www.googleapis.com/youtube/v3/channels?part=snippet&id+CHANNEL_ID&fields=items%2Fsnippet%2Fthumbnails&key=${API_KEY}`;
+
+export const RANDOM_JOKE_GENERATOR = "https://icanhazdadjoke.com/";
